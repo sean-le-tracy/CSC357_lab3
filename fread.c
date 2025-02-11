@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define BUFFER_SIZE 1
+#define BUFFER_SIZE 2
 
 int main() {
     FILE *fp = fopen("/usr/lib/locale/locale-archive", "r");
