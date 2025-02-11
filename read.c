@@ -6,7 +6,7 @@
 #define BUFFER_SIZE 2
 
 int main(){
-    int fd = open ("(/usr/lib/locale/locale-archive", O_RDONLY);
+    int fd = open ("/usr/lib/locale/locale-archive", O_RDONLY);
 
     if (fd == -1){
         perror("Could not open file");
