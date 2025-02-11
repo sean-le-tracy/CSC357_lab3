@@ -3,7 +3,7 @@
 #include<fcntl.h>
 #include<unistd.h>
 
-#define BUFFER_SIZE 2
+#define BUFFER_SIZE 16
 
 int main(){
     int fd = open ("/usr/lib/locale/locale-archive", O_RDONLY);
